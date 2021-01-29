@@ -1,2 +1,2 @@
 # Quiz-Application
-Quiz Application using Room DB and MVVM 
+Quiz Android Application using Room DB and MVVM 
