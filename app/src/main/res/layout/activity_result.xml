@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result of GoQuiz"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="33sp"
+        android:textColor="@android:color/black"
+        android:padding="5dp"
+        android:textStyle="bold|italic"
+        />
+    <LinearLayout
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/defaultsoln"
+        >
+        <TextView
+            android:id="@+id/res_txt_high_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Score:"
+            android:textSize="26sp"
+            android:textColor="#FFFFFF"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            />
+        <TextView
+            android:id="@+id/res_txt_total_ques"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Question:"
+            android:textSize="26sp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"
+            />
+        <TextView
+            android:id="@+id/res_txt_correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct:"
+            android:textSize="26sp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"
+            />
+        <TextView
+            android:id="@+id/res_txt_wrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrong:"
+            android:textSize="26sp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    >
+    <Button
+        android:id="@+id/res_btn_ply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textStyle="italic|bold"
+        android:text="Play Again"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:background="@drawable/defaultoptn"
+
+        />
+
+    <Button
+        android:id="@+id/res_btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="Main Menu"
+        android:textAllCaps="false"
+        android:background="@drawable/defaultoptn"
+        />
+</LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
